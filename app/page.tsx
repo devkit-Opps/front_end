@@ -1,113 +1,69 @@
-import Image from 'next/image'
+import Reviews from './Reviews/page';
+import Pop from './popup/page';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main> 
+      <Pop />
+      <main className="max-w-4x1 mx-auto z-2">
+        <section id="hero" className="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 widescreen:selection-min-height tallcreen:selection-min-height">
+          <article className="sm:w-1/2 ">
+            <h2 className="max-w-md text-4xl font-bold text-center sm:text-5x1 sm:text-left text-slate-900 dark:text-white">We Boldly stand <span className="text-indigo-700 dark:text-indigo-300">As Kenyans In Solidarity</span> To Protect Our Land for  generations to come .... </h2>
+            <p className="max-w-md text-2x1 mt-4 text-center sm:text-slate-700 dark:text-slate-400">We are building a kenya for the next century today. The power of the people is stronger than people in power.</p>
+            <p className="max-w-md text-2x1 mt-4 text-center sm:text-slate-700 dark:text-slate-400">Think timelab by JG </p>
+          </article>
+          
+          <img src="./images/rev-001.png" alt="bux" className="w-1/2  " />
+        </section>
+        <hr className="mx-auto bg-black dark:bg-white w-1/2" />
+        <section id="rockets" className="p-6 my-12 scroll-mt-20 widescreen:selection-min-height tallcreen:selection-min-height">
+          <h2 className="text-4x1 font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">Our Goal</h2>
+          <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+            <li className="w-1/2 sm:w-5/6 flex flex-col bg-black items-center border border-solid border-slate-900 dark:border-gray-100 py-6 px-2 rounded-3xl shadow-x1 glass">
+              <img src="./images/mzee jomo kenyatta.png" alt="light face" className="w-1/2 mb-5" />
+              <h3 className="text-3x1 text-center text-slate-900 dark:text-white">Explore</h3>
+              <p className="hidden sm:block text-3x1 mt-2 text-center text-slate-900 dark:text-white">$</p>
+              <p className="sm:hidden text-2x1 text-center mt-2 text-slate-500 dark:text-slate-400">Explore</p>
+            </li>
+            <li className="w-1/2 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 py-6 px-2 rounded-3xl shadow-x1 glass">
+              <img src="./images/mashujaa.png" alt="light face" className="w-1/2 mb-5" />
+              <h3 className="text-3x1 text-center text-slate-900 dark:text-white">adventurer</h3>
+              <p className="hidden sm:block mt-2 text-3x1 text-center text-slate-900 dark:text-white">$$</p>
+              <p className="sm:hidden text-2x1 text-center mt-2 text-slate-500 dark:text-slate-400">Best selling website</p>
+            </li>
+            <li className="w-1/2 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100  py-6 px-2 rounded-3xl shadow-x1 glass">
+              <img src="./images/platypus.png" alt="light face" className="w-1/2 mb-5" />
+              <h3 className="text-3x1 text-center text-slate-900 dark:text-white">Infinity</h3>
+              <p className="hidden sm:block text-3x1 text-center text-slate-900 dark:text-white mt-2">$$$</p>
+              <p className="sm:hidden text-2x1 text-center mt-2 text-slate-500 dark:text-slate-400">affordable exploration</p>
+            </li>
+          </ul>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        </section>
+        
+        <hr className="mx-auto bg-black dark:bg-white w-1/2" />
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+        <section id="testimonials" className="p-6 my-12 scroll-mt-20 widescreen:selection-min-height tallcreen:selection-min-height">
+          <h2 className="text-4x1 font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">Timelabs 2024</h2>          
+          <Reviews />
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+         
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+        </section>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        <hr className="mx-auto bg-black dark:bg-white w-1/2" />
+
+        <section id="contact" className="p-6 my-12 scroll-mt-16 widescreen:selection-min-height tallcreen:selection-min-height">
+          <h2 className="text-4x1 font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">Contact Us</h2>
+          <form action="" className='max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4'>
+            <label htmlFor="subjects">subject:</label>
+            <input type="text" id='subject' name='subject' required minLength={3} maxLength={60} placeholder=' your Subject' className='w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none' />
+          </form>
+          <label htmlFor="message">Message:</label>
+          <textarea name="message" id="message" cols={30} rows={10} className='w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none'></textarea>
+          <button className="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none">Submit</button>
+        </section>
+      </main>
     </main>
   )
 }

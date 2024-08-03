@@ -1,0 +1,39 @@
+{
+    "reviews": [
+    {
+        "id":101,
+        "name":"Rosemary N. Karei",
+        "job":"Litlo Rasco",
+        "image":"/images/drink_001.png",
+        "text":"It's my sincere pleasure to congratulate Fair & Lovely. Thanks alot for manufaturing such a wonderful cream.I started using Fair & Lovely eight months ago and it gives me a lovely finishing touch. it make me look nice and lovelier day by day. well done- keep up with the good work."
+    },
+    {
+        "id":103,
+        "name":"Nancy K. Ilakiti, Mumias",
+        "job":"Kusco THE Prick",
+        "image":"/images/drink_002.png",
+        "text":"I appreciate your recommendable job becuase since i started using Nice and lovely my face has changed completely. It is now smooth and lovely. I started using it in 1995, when i was in college. i had tried may creams earlier but i wasn't satisfied Now every one can notice I am using something different. I would like to thank you for your easy squeeze tube. It is surely easy to use."
+    },
+    {
+        "id":105,
+        "name":"Seline Mallaba Aboy",
+        "job":"Annonimouse",
+        "image":"/images/drink_003.png",
+        "text":"I am taking this opportunity to sincerely cogratulate you for taking the initiative to promote Nice & LOvely to almost all kenyans- even in Malaba we receive it I have an oily skin and Nice & Lovely Brings beauty and smooth to my skin .Fair Lovely has made my skin look so good that i get admiration from those around me. All I can say is that fair and Lovely makes me feel proud that I made the right choice."
+    },
+    {
+        "id":104,
+        "name":"Molly Irene Otieno",
+        "job":"HocussPoccus",
+        "image":"/images/drink_004.png",
+        "text":"Hello and thanks for your Fair and lovely cream. I have confidence in pronouncing your marvellous product Fair & Lovely again and again. fair and lovely and taken care of my face and I no longer use anything else to keep that finish all day long. Frankly I have used it for more than two years and heko kwenu. keep up and carry on let the picture speak for those behind the good news."
+    },
+    {
+        "id":102,
+        "name":"Lucy Waithira",
+        "job":"Papi Chull00h",
+        "image":"/images/drink_005.png",
+        "text":"I sincerely congratulate for your product. I have used Fair& Lovely for over two years now and it has not bleached my face. instead it looks and feels soft tender and smooth. Fair and lovely is perfect for me that many people ask me what I used. Most of my friend have started using it. Their comment is that Fair & Lovely is perfect."
+    }
+]
+}
