@@ -1,6 +1,7 @@
 import Reviews from './Reviews/page';
 import Pop from './popup/page';
 
+
 export default function Home() {
   return (
     <main> 
@@ -67,3 +68,5 @@ export default function Home() {
     </main>
   )
 }
+
+

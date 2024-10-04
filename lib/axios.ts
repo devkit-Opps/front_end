@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3300/yearbook/api/";
+// const BASE_URL = "http://localhost:3300/yearbook/api/";
+const BASE_URL = "http://192.168.100.161:3300/yearbook/api/";
 // localhost:3300/yearbook/api
 // const config = {
 //     headers: {'Content-Type':'application/json'},
